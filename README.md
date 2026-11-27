@@ -33,3 +33,10 @@ streamlit run app.py
 ```
 
 Split is 60/20/20 with `random_state=42` (876 / 292 / 292 rows), exactly as in the notebook.
+
+
+## Pages
+
+- **Price prediction**: the SVR predictor.
+- **Data insights**: the notebook's EDA and Q1-Q12 charts, rebuilt with Plotly (`insights.py`).
+- English / Arabic switch in the sidebar (Arabic uses right-to-left layout).
