@@ -1,0 +1,40 @@
+{
+  "metrics": [
+    {
+      "split": "Train",
+      "R2": 0.9481,
+      "MAE_log": 0.065,
+      "RMSE_log": 0.0888,
+      "MAE_usd": 11720.0,
+      "RMSE_usd": 19186.0
+    },
+    {
+      "split": "Validation",
+      "R2": 0.9038,
+      "MAE_log": 0.0815,
+      "RMSE_log": 0.1217,
+      "MAE_usd": 14801.0,
+      "RMSE_usd": 23796.0
+    },
+    {
+      "split": "Test",
+      "R2": 0.902,
+      "MAE_log": 0.089,
+      "RMSE_log": 0.1352,
+      "MAE_usd": 15803.0,
+      "RMSE_usd": 27616.0
+    }
+  ],
+  "n_features": 79,
+  "n_features_encoded": 236,
+  "params": {
+    "kernel": "rbf",
+    "C": 10,
+    "gamma": 0.001
+  },
+  "split_sizes": {
+    "train": 876,
+    "val": 292,
+    "test": 292
+  }
+}
